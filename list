@@ -1,0 +1,14 @@
+1. Integrate interface with insert box for password and 2fa insert box with buttons
+2. Eliminate existing gnome wifi system tray icon on startup
+3. Attach additional 2fa step to your particular network interface on startup
+4. Replace wifi system tray icon with your app indicator icon on startup
+
+modify network interface with GNOME Shell extensions or system settings
+
+remember to revert all settings after uninstallation
+
+intercept packets on libpcap to enforce auth
+
+modify ubuntu network configuration files such as network manager
+
+elevate permissions for system-level configuration
